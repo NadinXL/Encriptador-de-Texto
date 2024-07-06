@@ -4,11 +4,11 @@
 Esta aplicación web permite a los usuarios encriptar y desencriptar texto utilizando un conjunto específico de reglas de transformación. La interfaz es intuitiva y responsiva, adaptándose a dispositivos móviles, tabletas y escritorios para una experiencia de usuario óptima.
 El propósito principal de la aplicación es proporcionar una forma sencilla y divertida de ocultar mensajes de texto. Las "llaves" de encriptación utilizadas son las siguientes:
 
-La letra "e" es convertida a "enter"
-La letra "i" es convertida a "imes"
-La letra "a" es convertida a "ai"
-La letra "o" es convertida a "ober"
-La letra "u" es convertida a "ufat"
+- La letra "e" es convertida a "enter"
+- La letra "i" es convertida a "imes"
+- La letra "a" es convertida a "ai"
+- La letra "o" es convertida a "ober"
+- La letra "u" es convertida a "ufat"
 
 ## Características
 - **Encriptación y Desencriptación de Texto**: Utiliza un conjunto de reglas específicas para transformar el texto.
