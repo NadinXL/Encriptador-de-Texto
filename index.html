@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    
+    <header class="header">
+        <nav class="header__menu">
+            <a href="index.html">
+                <img src="./assets/Logo.png" alt="Logo">
+            </a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="left-panel">
+            <textarea class="cajas-texto" id="textoUsuario" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="left-panel-msg">
+                <img src="./assets/simple-line-icons--exclamation.svg" alt="Signo Exclamacion">
+                <p class="note">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button onclick="encriptar();" class="encrypt-btn">Encriptar</button>
+                <button onclick="desencriptar();" class="decrypt-btn">Desencriptar</button>
+            </div>
+        </section>
+        <div class="right-panel">
+            <div class="no-message">
+                <img class="muneco" id="imagenMuneco" src="./assets/Muñeco.png" alt="Muñeco">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p id="mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="copiar-btn" id="copiarBtn" onclick="copiarTexto()" hidden>Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="encriptador.js" defer></script>
+</body>
+
+</html>
